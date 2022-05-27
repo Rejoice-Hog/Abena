@@ -45,7 +45,7 @@ ul{
 #showcase{
   background: url("../img/img1.jpg") no-repeat center center/cover;
   height: 100vh;
-  color: #fff;
+  color: rgb(190, 180, 180);
 }
 
 #showcase .show-content{
@@ -55,13 +55,14 @@ text-align: center;
 justify-content:center  ;
 height: 100%;
 padding: 0 2rem;
+
 /*overlay*/
 position: absolute;
 top: 60px;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: rgb(0,0,0.5);
+background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -84,11 +85,12 @@ color: blue;
  display: inline-block;
  color: #fff;
  background: orange;
- padding: 0.5rem;
-width: 160px;
-border: none;
-border-radius: 5px;
+ padding: 0.5rem 2rem;
+  width: 160px;
+  border: none;
+  border-radius: 5px;
 }
+
 .btn:hover{
   background: brown;
 }

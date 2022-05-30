@@ -94,3 +94,124 @@ color: blue;
 .btn:hover{
   background: brown;
 }
+
+
+.items{
+  display: flex;
+  padding:1rem;
+  
+
+}
+
+#what.items.item{
+
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+  
+#what .items .item i{
+  background: blue;
+  color: black;
+  padding: 1rem;
+  border-radius: 50%;
+
+}
+
+/*section for who we are*/
+#who{
+  display: flex;
+
+}
+#who div{
+ flex: 1; 
+}
+#who .who-img{
+ background: url("../img/img2.jpg") no-repeat center center/cover; 
+}
+.bg-light{
+  background: #93cb52;
+}
+.p-1{
+  padding: 1.5rem;
+}
+.p-2{
+  padding: 2rem;
+}
+.p-3{
+  padding: 3rem;
+}
+
+.list{
+  margin: 00.5rem;
+  list-style: none;
+}
+.list li{
+  padding: 0.5rem;
+  border-bottom: #93cb52
+}
+
+/* client */
+#clients{
+  display:flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#clients .items img{
+  display: block;
+  margin: auto 15px;
+  width: 90px;
+  height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

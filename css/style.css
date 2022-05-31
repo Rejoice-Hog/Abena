@@ -178,6 +178,7 @@ l-leading{
 }
 
 .list{
+  display: block;
   margin: 00.5rem;
   list-style: none;
 }
@@ -228,9 +229,7 @@ l-leading{
 }
 
 
-
-
-
+/* code for media */
 
 
 

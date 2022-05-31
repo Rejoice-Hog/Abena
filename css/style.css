@@ -14,8 +14,8 @@ a{
 
 /*code for the navbar*/
 #navbar{
-  background: aqua;
-  color: orange;
+  background: pink;
+  color: yellow;
   top: 0;
   position:sticky;
   display: flex;
@@ -62,17 +62,20 @@ top: 60px;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: rgba(0,0,0,0.5);
+background-color: rgb(0,0,0,0.5);
 }
-
-
 
 l-leading{
-  font-size: 2rem;
-  margin-bottom: 00.75rem;
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
   line-height: 1.1;
-color: blue;
-}
+  }
+
+  m-leading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    }
 
 .lead{
   font-size: 1.3rem;
@@ -92,7 +95,39 @@ color: blue;
 }
 
 .btn:hover{
-  background: brown;
+  background: pink;
+}
+
+.btn-dark{
+  background: red;
+  color: violet;
+}
+
+.container{
+  max-width: 1100px;
+  margin:auto;
+  padding: 0 2rem;
+
+  overflow: hidden;
+
+
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.py-1{
+  padding: 1.5rem 0;
+}
+
+.py-2{
+  padding: 2rem 0;
+}
+
+.py-3{
+  padding: 3rem 0;
 }
 
 
@@ -164,6 +199,32 @@ color: blue;
   margin: auto 15px;
   width: 90px;
   height: 90px;
+
+}
+
+/*section: contact us*/
+.bg-primary{
+  background: #93cb52;
+  color: blue;
+}
+
+#contact{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact .contact-form .form-group{
+  margin: 0.75rem;
+}
+
+#contact .contact-form label{
+  display: block;
+}
+  
+
+#contact .contact-form input, #contact .contact-form{
+  width: 100%;
+  padding: 0.5rem;
 }
 
 
@@ -174,17 +235,6 @@ color: blue;
 
 
 
-
-
-
-
-
-
-
-
-
-
-;
 
 
 

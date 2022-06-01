@@ -153,12 +153,7 @@ l-leading{
 
 }
 
-/* smartphone*/
-@media(max-width:500px){
-  body{
-    display: none;
-  }
-}
+
 
 
 /*section for who we are*/

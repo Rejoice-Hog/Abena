@@ -48,10 +48,10 @@
   display: block;
 }
   
-@media(max: height 568px){
+@media(max-height: 568px){
   #showcase.showcase-content{
     margin-top: -2rem;
-  top: 140px;
+    top: 140px;
 }
 
 .l-heading{
